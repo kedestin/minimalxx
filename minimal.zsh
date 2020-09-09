@@ -152,3 +152,5 @@ RPROMPT='$(_mnml_expand MNML_RPROMPT)'
 
 _mnml_bind_widgets
 
+# Disable default venv
+export VIRTUAL_ENV_DISABLE_PROMPT=1
